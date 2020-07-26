@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEDMapper</title>
+
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/skeleton.css">
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+    <div>
+        <b>Screen Width:</b>
+        <input type="number" id="screenWidth" value="1024">
+        <b>Screen Height:</b>
+        <input type="number" id="screenHeight" value="768">
+    </div>
+    <table id="config"></table>
+
+    <h4>Output Map</h4>
+    <img id="outputMap" alt="Output Map">
+
+    <h4>Screens</h4>
+    <div id="screens">
+
+    </div>
+
+    <footer>
+        <i>
+
+            A quickly bodged 'thing' to make LED walls and projector mapping output maps. <br>
+            <b>Made with <3 by vivedo.</b>
+        </i>
+    </footer>
+
+    <script src="js/screen.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
